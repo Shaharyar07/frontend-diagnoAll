@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+    116.3deg,
+    #651107 1.94%,
+    #9b1f10 18.9%,
+    #51262a 38.54%,
+    #412c2e 59.16%,
+    #25444a 72.6%,
+    #0c191e 100%
+  );
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
