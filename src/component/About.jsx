@@ -4,8 +4,11 @@ const About = () => {
   return (
     <section class=' body-font m-auto max-w-[1268px]'>
       <div class='container px-5 py-24 mx-auto flex flex-wrap'>
+        <h1 className=' text-6xl leading font-bold text-center m-auto border-b-2 pb-2 mb-4'>
+          Our Engineered Process
+        </h1>
         <div class='flex flex-wrap w-full'>
-          <div class='lg:w-2/5 md:w-1/2 md:pr-10 md:py-6'>
+          <div class='lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mt-10'>
             <div class='flex relative pb-12'>
               <div class='h-full w-10 absolute inset-0 flex items-center justify-center'>
                 <div class='h-full w-1 bg-gray-200 pointer-events-none'></div>
@@ -143,7 +146,7 @@ const About = () => {
             </div>
           </div>
           <img
-            class='lg:w-3/5 md:w-1/2 object-cover object-right ml-1 rounded-lg md:mt-0 mt-12'
+            class='lg:w-3/5 md:w-1/2 object-cover object-right rounded-lg md:mt-0 mt-12'
             src={heroimg}
             alt='step'
           />
