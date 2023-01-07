@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section class=' body-font m-auto max-w-[1268px]'>
       <div class='container px-5 py-24 mx-auto flex flex-wrap'>
-        <h1 className=' text-6xl leading font-bold text-center m-auto border-b-2 pb-2 mb-4'>
+        <h1 className=' text-6xl leading font-bold text-center m-auto border-b-2 pb-2 mb-4 text-transparent bg-clip-text bg-gradient-to-r to-red-600 from-[#db1a6e]'>
           Our Engineered Process
         </h1>
         <div class='flex flex-wrap w-full'>

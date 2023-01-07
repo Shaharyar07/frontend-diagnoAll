@@ -1,13 +1,13 @@
 import React from "react";
 const Navbar = () => {
   return (
-    <div className='navbar pt-4 '>
+    <div className='navbar pt-4'>
       <div className='navbar-start z-10'>
         {/* display social media icon */}
         <a className=' btn btn-ghost  btn-circle'>
           <svg
-            width='20'
-            height='20'
+            width='40'
+            height='40'
             viewBox='0 0 20 20'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
@@ -52,14 +52,16 @@ const Navbar = () => {
         </a>
       </div>
       <div className='navbar-center'>
-        <a className='btn btn-ghost text-4xl capitalize'>DiagnoALL</a>
+        <a className='btn btn-ghost text-4xl capitalize bg-gradient-to-r bg-transparent  to-[#007474] from-red-600'>
+          DiagnoALL
+        </a>
       </div>
       <div className='navbar-end'>
         <div className='dropdown'>
-          <label tabIndex={0} className='btn btn-ghost btn-circle'>
+          <label tabIndex={0} className='btn btn-ghost btn-circle '>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
+              className='h-10 w-10'
               fill='#fff'
               viewBox='0 0 24 24'
               stroke='currentColor'
@@ -74,7 +76,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className='menu menu-compact dropdown-content p-2 shadow  bg-[#154f5b]  rounded-box w-52'
+            className='menu menu-compact dropdown-content p-2 shadow  bg-gradient-to-r to-[#007474] from-red-600  rounded-box w-46'
           >
             <li>
               <a>Homepage</a>

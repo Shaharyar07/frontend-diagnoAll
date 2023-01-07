@@ -3,6 +3,9 @@ import Hero from "./component/Hero";
 
 import newimg from "./assets/newimg.png";
 import About from "./component/About";
+import Customer from "./component/Customer";
+import Services from "./component/Services";
+import Footer from "./component/Footer";
 function App() {
   return (
     <main>
@@ -12,7 +15,7 @@ function App() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
+
           overflow: "hidden",
           height: "100vh",
         }}
@@ -23,6 +26,9 @@ function App() {
         </div>
       </section>
       <About />
+      <Customer />
+      <Services />
+      <Footer />
     </main>
   );
 }
