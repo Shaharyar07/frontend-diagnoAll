@@ -1,18 +1,18 @@
 import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 
-import image3 from "./assets/hero.png";
+import newimg from "./assets/newimg.png";
 import About from "./component/About";
 function App() {
   return (
     <main>
       <section
         style={{
-          backgroundImage: `url(${image3})`,
+          backgroundImage: `url(${newimg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          width: "100%",
+          
           overflow: "hidden",
           height: "100vh",
         }}
