@@ -15,12 +15,12 @@ function App() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-
           overflow: "hidden",
           height: "100vh",
         }}
+        
       >
-        <div className='m-auto max-w-[1268px]'>
+        <div className='m-auto max-w-[1268px] '>
           <Navbar />
           <Hero />
         </div>

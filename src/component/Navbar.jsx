@@ -2,7 +2,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className='navbar pt-4'>
-      <div className='navbar-start z-10'>
+      <div className='navbar-start z-10 hidden md:block'>
         {/* display social media icon */}
         <a className=' btn btn-ghost  btn-circle'>
           <svg
@@ -56,7 +56,7 @@ const Navbar = () => {
           DiagnoALL
         </a>
       </div>
-      <div className='navbar-end'>
+      <div className='navbar-end mx-5'>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost btn-circle '>
             <svg

@@ -54,7 +54,7 @@ const Customer = () => {
               <div className='md:mb-12 lg:mb-0'>
                 <img
                   src={consult}
-                  className='w-full rounded-lg shadow-lg'
+                  className='w-full rounded-lg shadow-lg hidden md:block'
                   alt=''
                 />
               </div>

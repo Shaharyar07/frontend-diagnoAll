@@ -278,9 +278,9 @@ const Footer = () => {
         </div>
       </div>
       <div className='text-center p-6'>
-        <span>© 2021 Copyright:</span>
+        <span>© 2023 Copyright:</span>
         <a className='  font-semibold' href='https://tailwind-elements.com/'>
-          Tailwind Elements
+          DiagnoALL
         </a>
       </div>
     </footer>

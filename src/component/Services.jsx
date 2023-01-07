@@ -5,13 +5,13 @@ const Services = () => {
     <div className='m-auto max-w-[1268px] container my-24 px-6 '>
       {/* Section: Design Block */}
       <h1 className='text-6xl leading font-bold text-center m-auto border-b-2 pb-4 mb-4 text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400'>
-        Projects we are proud of
+        Our Objective
       </h1>
       <section className='pb-20'>
         <div className='flex flex-wrap items-center'>
           <div className='grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 md:px-6'>
             <div
-              className='relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg'
+              className='relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg '
               data-mdb-ripple='true'
               data-mdb-ripple-color='light'
               style={{ backgroundPosition: "50%" }}
