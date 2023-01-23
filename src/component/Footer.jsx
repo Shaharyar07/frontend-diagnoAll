@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='m-auto max-w-[1268px] text-center lg:text-left'>
       <div className='flex justify-center items-center lg:justify-between p-6 border-b border-gray-300'>
         <div className='mr-12 hidden lg:block'>
-          <span>Get connected on social networks :</span>
+          <span>Get connected on social networks:</span>
         </div>
         <div className='flex justify-center'>
           <a href='#!' className='mr-6 '>
